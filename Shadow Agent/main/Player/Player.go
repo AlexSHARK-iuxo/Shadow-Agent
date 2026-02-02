@@ -1,0 +1,59 @@
+components {
+  id: "Player"
+  component: "/main/Player/Player.script"
+}
+components {
+  id: "fx"
+  component: "/main/Assets/Sounds/fx.sound"
+}
+components {
+  id: "steps"
+  component: "/main/Assets/Sounds/steps.sound"
+}
+components {
+  id: "collect"
+  component: "/main/Assets/Sounds/collect.sound"
+}
+components {
+  id: "fundo"
+  component: "/main/Assets/Sounds/fundo.sound"
+}
+embedded_components {
+  id: "sprite"
+  type: "sprite"
+  data: "default_animation: \"PlayerTV.png\"\n"
+  "material: \"/builtins/materials/sprite.material\"\n"
+  "textures {\n"
+  "  sampler: \"texture_sampler\"\n"
+  "  texture: \"/main/Assets/Main.atlas\"\n"
+  "}\n"
+  ""
+}
+embedded_components {
+  id: "collisionobject"
+  type: "collisionobject"
+  data: "type: COLLISION_OBJECT_TYPE_KINEMATIC\n"
+  "mass: 0.0\n"
+  "friction: 0.1\n"
+  "restitution: 0.5\n"
+  "group: \"Player\"\n"
+  "mask: \"Exit\"\n"
+  "mask: \"Enemy\"\n"
+  "mask: \"Wall\"\n"
+  "mask: \"documento\"\n"
+  "embedded_collision_shape {\n"
+  "  shapes {\n"
+  "    shape_type: TYPE_BOX\n"
+  "    position {\n"
+  "    }\n"
+  "    rotation {\n"
+  "    }\n"
+  "    index: 0\n"
+  "    count: 3\n"
+  "  }\n"
+  "  data: 24.867067\n"
+  "  data: 56.555054\n"
+  "  data: 10.0\n"
+  "}\n"
+  ""
+}

@@ -1,0 +1,56 @@
+components {
+  id: "Enemy"
+  component: "/main/Enemies/Enemy.script"
+}
+embedded_components {
+  id: "sprite"
+  type: "sprite"
+  data: "default_animation: \"InimigoTV.png\"\n"
+  "material: \"/builtins/materials/sprite.material\"\n"
+  "textures {\n"
+  "  sampler: \"texture_sampler\"\n"
+  "  texture: \"/main/Assets/Main.atlas\"\n"
+  "}\n"
+  ""
+  scale {
+    x: 0.333224
+    y: 0.358052
+  }
+}
+embedded_components {
+  id: "collisionobject"
+  type: "collisionobject"
+  data: "type: COLLISION_OBJECT_TYPE_TRIGGER\n"
+  "mass: 0.0\n"
+  "friction: 0.1\n"
+  "restitution: 0.5\n"
+  "group: \"Enemy\"\n"
+  "mask: \"Background\"\n"
+  "mask: \"Player\"\n"
+  "mask: \"Wall\"\n"
+  "embedded_collision_shape {\n"
+  "  shapes {\n"
+  "    shape_type: TYPE_SPHERE\n"
+  "    position {\n"
+  "      y: 61.0\n"
+  "    }\n"
+  "    rotation {\n"
+  "    }\n"
+  "    index: 0\n"
+  "    count: 1\n"
+  "  }\n"
+  "  shapes {\n"
+  "    shape_type: TYPE_SPHERE\n"
+  "    position {\n"
+  "      y: -12.0\n"
+  "    }\n"
+  "    rotation {\n"
+  "    }\n"
+  "    index: 1\n"
+  "    count: 1\n"
+  "  }\n"
+  "  data: 71.922745\n"
+  "  data: 67.71853\n"
+  "}\n"
+  ""
+}

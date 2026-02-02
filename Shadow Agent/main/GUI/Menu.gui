@@ -1,0 +1,137 @@
+fonts {
+  name: "always_on_top"
+  font: "/builtins/fonts/debug/always_on_top.font"
+}
+nodes {
+  position {
+    x: 499.0
+    y: 399.0
+  }
+  scale {
+    x: 2.825112
+    y: 2.40998
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "Shadow Agent"
+  font: "always_on_top"
+  id: "title"
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 500.0
+    y: 299.0
+  }
+  scale {
+    x: 0.952837
+    y: 0.768069
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  color {
+    x: 0.227
+    y: 0.231
+    z: 0.247
+  }
+  type: TYPE_BOX
+  id: "play"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "Start\n"
+  "\n"
+  ""
+  font: "always_on_top"
+  id: "playT"
+  parent: "play"
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 500.0
+    y: 212.0
+  }
+  scale {
+    x: 0.952837
+    y: 0.768069
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  color {
+    x: 0.227
+    y: 0.231
+    z: 0.247
+  }
+  type: TYPE_BOX
+  id: "rank"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  color {
+    x: 0.902
+    y: 0.902
+    z: 0.302
+  }
+  type: TYPE_TEXT
+  text: "Ranking"
+  font: "always_on_top"
+  id: "rankT"
+  parent: "rank"
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 500.0
+    y: 123.0
+  }
+  scale {
+    x: 0.952837
+    y: 0.768069
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  color {
+    x: 0.227
+    y: 0.231
+    z: 0.247
+  }
+  type: TYPE_BOX
+  id: "exit"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "Exit"
+  font: "always_on_top"
+  id: "exitT"
+  parent: "exit"
+  inherit_alpha: true
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT

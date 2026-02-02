@@ -1,0 +1,83 @@
+script: "/main/GUI/Interface.gui_script"
+fonts {
+  name: "default"
+  font: "/builtins/fonts/default.font"
+}
+nodes {
+  position {
+    x: 828.0
+    y: 84.0
+  }
+  scale {
+    x: 1.181937
+    y: 1.503747
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  color {
+    y: 0.0
+    z: 0.0
+  }
+  type: TYPE_TEXT
+  text: "Mission:\n"
+  "Collect the 3 items\n"
+  "\n"
+  "\n"
+  ""
+  font: "default"
+  id: "missoes"
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 828.0
+    y: 47.0
+  }
+  scale {
+    x: 1.181937
+    y: 1.503747
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  color {
+    x: 0.902
+    y: 0.902
+    z: 0.302
+  }
+  type: TYPE_TEXT
+  text: "Points: 0\n"
+  ""
+  font: "default"
+  id: "Points"
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 449.0
+    y: 343.0
+  }
+  scale {
+    x: 7.201898
+    y: 10.341679
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  color {
+    x: 0.973
+    y: 0.004
+    z: 0.004
+  }
+  type: TYPE_BOX
+  id: "box"
+  inherit_alpha: true
+  alpha: 0.0
+  size_mode: SIZE_MODE_AUTO
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT

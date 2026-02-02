@@ -1,0 +1,1007 @@
+name: "game"
+instances {
+  id: "Player"
+  prototype: "/main/Player/Player.go"
+  position {
+    x: 213.5361
+    y: 117.094154
+  }
+}
+instances {
+  id: "Enemy"
+  prototype: "/main/Enemies/Enemy.go"
+  position {
+    x: 729.2125
+    y: 289.0807
+  }
+}
+instances {
+  id: "Item"
+  prototype: "/main/Maps/Item.go"
+  position {
+    x: 864.5515
+    y: 587.0026
+  }
+}
+instances {
+  id: "Wall"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 52.139084
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall1"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 116.139084
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall2"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 180.13908
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall3"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 244.13908
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall4"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 308.13907
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall5"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 372.13907
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall6"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 436.13907
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall7"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 500.13907
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall8"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 564.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall9"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 628.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall10"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1012.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall11"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1268.139
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall12"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 820.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall13"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1204.139
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall14"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 756.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall15"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 692.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall16"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1076.139
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall17"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1140.139
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall18"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 884.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall19"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 948.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall20"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1332.139
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall21"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1396.139
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall22"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1460.139
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall23"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 820.1391
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall24"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1076.139
+    y: -26.645819
+  }
+}
+instances {
+  id: "Wall25"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 884.1391
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall26"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1012.1391
+    y: -26.645819
+  }
+}
+instances {
+  id: "Wall27"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 372.13907
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall28"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1396.139
+    y: -26.645819
+  }
+}
+instances {
+  id: "Wall29"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 628.1391
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall30"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1140.139
+    y: -26.645819
+  }
+}
+instances {
+  id: "Wall31"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1204.139
+    y: -26.645819
+  }
+}
+instances {
+  id: "Wall32"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 180.13908
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall33"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 756.1391
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall34"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 564.1391
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall35"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1268.139
+    y: -26.645819
+  }
+}
+instances {
+  id: "Wall36"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 116.139084
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall37"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 52.139084
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall38"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 436.13907
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall39"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1460.139
+    y: -26.645819
+  }
+}
+instances {
+  id: "Wall40"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 948.1391
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall41"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 692.1391
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall42"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1332.139
+    y: -26.645819
+  }
+}
+instances {
+  id: "Wall43"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 500.13907
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall44"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 244.13908
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall45"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 308.13907
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall46"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 820.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall47"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1076.139
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall48"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 884.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall49"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1012.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall50"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 372.13907
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall51"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1396.139
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall52"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 628.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall53"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1140.139
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall54"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1204.139
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall55"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 180.13908
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall56"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 756.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall57"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 564.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall58"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1268.139
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall59"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 116.139084
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall60"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 52.139084
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall61"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 436.13907
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall62"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1460.139
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall63"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 948.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall64"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 692.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall65"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 1332.139
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall66"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 500.13907
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall67"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 244.13908
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall68"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 308.13907
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall69"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall70"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 624.3542
+  }
+}
+instances {
+  id: "Background"
+  prototype: "/main/Maps/Background.go"
+  position {
+    x: 475.85043
+    y: 337.4115
+  }
+}
+instances {
+  id: "Wall71"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 560.3542
+  }
+}
+instances {
+  id: "Wall72"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 496.3542
+  }
+}
+instances {
+  id: "Wall73"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 432.3542
+  }
+}
+instances {
+  id: "Wall74"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 368.3542
+  }
+}
+instances {
+  id: "Wall75"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 304.3542
+  }
+}
+instances {
+  id: "Wall76"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 240.35419
+  }
+}
+instances {
+  id: "Wall77"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 176.35419
+  }
+}
+instances {
+  id: "Wall78"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 112.35418
+  }
+}
+instances {
+  id: "Wall79"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 48.354183
+  }
+}
+instances {
+  id: "Wall80"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall82"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 466.13907
+    y: 175.35419
+  }
+}
+instances {
+  id: "Wall83"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 466.13907
+    y: 111.35418
+  }
+}
+instances {
+  id: "Wall84"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 466.13907
+    y: 47.354183
+  }
+}
+instances {
+  id: "Wall81"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall85"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 624.3542
+  }
+}
+instances {
+  id: "Wall86"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 560.3542
+  }
+}
+instances {
+  id: "Wall87"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 496.3542
+  }
+}
+instances {
+  id: "Wall88"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 432.3542
+  }
+}
+instances {
+  id: "Wall89"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 368.3542
+  }
+}
+instances {
+  id: "Wall90"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 304.3542
+  }
+}
+instances {
+  id: "Wall91"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -11.860917
+    y: 240.35419
+  }
+}
+instances {
+  id: "Wall92"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 304.3542
+  }
+}
+instances {
+  id: "Wall93"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 48.354183
+  }
+}
+instances {
+  id: "Wall94"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 496.3542
+  }
+}
+instances {
+  id: "Wall95"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 624.3542
+  }
+}
+instances {
+  id: "Wall96"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 240.35419
+  }
+}
+instances {
+  id: "Wall97"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 624.3542
+  }
+}
+instances {
+  id: "Wall98"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 304.3542
+  }
+}
+instances {
+  id: "Wall99"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 240.35419
+  }
+}
+instances {
+  id: "Wall100"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 432.3542
+  }
+}
+instances {
+  id: "Wall101"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 368.3542
+  }
+}
+instances {
+  id: "Wall102"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 176.35419
+  }
+}
+instances {
+  id: "Wall103"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 432.3542
+  }
+}
+instances {
+  id: "Wall104"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall105"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 560.3542
+  }
+}
+instances {
+  id: "Wall106"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: -15.645818
+  }
+}
+instances {
+  id: "Wall107"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 496.3542
+  }
+}
+instances {
+  id: "Wall108"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 688.3542
+  }
+}
+instances {
+  id: "Wall109"
+  prototype: "/main/Maps/Wall.go"
+  children: "Wall116"
+  position {
+    x: 986.1391
+    y: 560.3542
+  }
+}
+instances {
+  id: "Wall110"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 112.35418
+  }
+}
+instances {
+  id: "Wall111"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 986.1391
+    y: 368.3542
+  }
+}
+instances {
+  id: "Exit"
+  prototype: "/main/Maps/Exit.go"
+  position {
+    x: 84.580605
+    y: 593.21234
+  }
+}
+instances {
+  id: "Wall112"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 466.13907
+    y: 624.3542
+  }
+}
+instances {
+  id: "Wall113"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 466.13907
+    y: 560.3542
+  }
+}
+instances {
+  id: "Wall114"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 466.13907
+    y: 496.3542
+  }
+}
+instances {
+  id: "Wall115"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: 466.13907
+    y: 432.3542
+  }
+}
+instances {
+  id: "Table"
+  prototype: "/main/Maps/Table.go"
+  position {
+    x: 825.3542
+    y: 140.80376
+  }
+}
+instances {
+  id: "Wall116"
+  prototype: "/main/Maps/Wall.go"
+  position {
+    x: -353.86093
+    y: 175.35419
+  }
+}
+instances {
+  id: "Interface"
+  prototype: "/main/GUI/Interace.go"
+}
+instances {
+  id: "Item1"
+  prototype: "/main/Maps/Item.go"
+  position {
+    x: 272.5515
+    y: 587.0026
+  }
+}
+instances {
+  id: "Item2"
+  prototype: "/main/Maps/Item.go"
+  position {
+    x: 571.5515
+    y: 85.0026
+  }
+}
+scale_along_z: 0

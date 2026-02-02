@@ -1,0 +1,25 @@
+images {
+  image: "/main/Assets/Ch\303\243oTV.png.png"
+}
+images {
+  image: "/main/Assets/clothes.png"
+}
+images {
+  image: "/main/Assets/doc.png"
+}
+images {
+  image: "/main/Assets/exit.png"
+}
+images {
+  image: "/main/Assets/InimigoTV.png.png"
+}
+images {
+  image: "/main/Assets/PlayerTV.png.png"
+}
+images {
+  image: "/main/Assets/table.png"
+}
+images {
+  image: "/main/Assets/wall.png"
+}
+extrude_borders: 2
