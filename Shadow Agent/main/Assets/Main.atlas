@@ -12,6 +12,8 @@ images {
 }
 images {
   image: "/main/Assets/InimigoTV.png.png"
+  pivot_x: 0.490146
+  pivot_y: 0.4705
 }
 images {
   image: "/main/Assets/PlayerTV.png.png"
@@ -21,5 +23,10 @@ images {
 }
 images {
   image: "/main/Assets/wall.png"
+}
+images {
+  image: "/main/Assets/Invisibilidade.png"
+  pivot_x: 0.512191
+  pivot_y: 0.489042
 }
 extrude_borders: 2
